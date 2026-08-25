@@ -23,7 +23,7 @@ unic-langid = { version = "0.9", features = ["macros"] }
 walkdir = "2.5.0"
 
 [dev-dependencies]
-dioxus = { version = "0.7", features = ["desktop"] }
+dioxus = { path = "../dioxus/packages/dioxus", features = ["desktop"] }
 freya = "0.3"
 futures = "0.3.31"
 pretty_assertions = "1.4.1"
